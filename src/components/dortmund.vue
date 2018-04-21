@@ -1,0 +1,24 @@
+<template>
+  <div>
+   <img src="../assets/dortmund.png"/>
+   <h3>Borussia Dortmund</h3>
+   <slot></slot> 
+  </div>
+</template>
+
+<script>
+export default {
+ 
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+div {
+        background-color: yellow;
+        margin-top: 20px;
+        text-align: center
+    }
+
+</style>

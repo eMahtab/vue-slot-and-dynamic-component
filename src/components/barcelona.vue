@@ -1,0 +1,23 @@
+<template>
+  <div>
+    <img src="../assets/barcelona.png"/>
+    <h3>Barcelona</h3>
+    <slot></slot>
+  </div>
+</template>
+
+<script>
+export default {
+  
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+div {
+        background-color: lightsalmon;
+        margin-top: 10px;
+        text-align: center
+    }
+</style>
